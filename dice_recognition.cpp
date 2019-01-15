@@ -1,3 +1,13 @@
+/*
+You are responsible for your own computer security. If your machine is compromised you will lose your ether, 
+access to any contracts and maybe more.
+
+You are responsible for your own actions. If you mess something up or break any laws while using this software, 
+it's your fault, and your fault only.
+
+You are responsible for your own karma. Don't be a jerk and respect others.
+This software is open source under a GNU Lesser General Public License license.
+*/
 #include <Windows.h> 
 #include <cstdio> 
 #include "opencv2/highgui.hpp"
@@ -245,7 +255,7 @@ int main(int argc, char** argv)
 
 	// open the default IP camera
 	VideoCapture cap("http://admin:tfgadmin@192.168.0.20/video.cgi");
-	//VideoCapture cap(0);///C¡MARA DE WEB
+	//VideoCapture cap(0);///C√ÅMARA DE WEB
 
 	// check if we succesfully opened the camera stream
 	if (!cap.isOpened()) {
