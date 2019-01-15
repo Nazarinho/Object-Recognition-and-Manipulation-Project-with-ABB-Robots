@@ -1,4 +1,14 @@
-﻿namespace PCSDK_Csharp_BasicScanApp_560
+/*
+You are responsible for your own computer security. If your machine is compromised you will lose your ether, 
+access to any contracts and maybe more.
+
+You are responsible for your own actions. If you mess something up or break any laws while using this software, 
+it's your fault, and your fault only.
+
+You are responsible for your own karma. Don't be a jerk and respect others.
+This software is open source under a GNU Lesser General Public License license.
+*/
+namespace PCSDK_Csharp_BasicScanApp_560
 {
     partial class Form1
     {
