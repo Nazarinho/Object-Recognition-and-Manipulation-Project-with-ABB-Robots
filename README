@@ -8,7 +8,9 @@ All the data is sending to the PC via Ethernet. PC is providing this data
 towards IRC5 controller that makes robot to pick up the dice of the conveyor 
 and place it on the table at real time. 
 The routine is complete when all dices are placed at each destination. 
-If there is repeated dice detected, the robot picks it up and throw it again. 
+If there is repeated dice detected, the robot picks it up and throw it again.
+*NOTE:
+The following module can be simulated at robotstudio virtual controller. 
 *****************************************************************************
 
 OPENCV Libraries Implementation for computer vision:
