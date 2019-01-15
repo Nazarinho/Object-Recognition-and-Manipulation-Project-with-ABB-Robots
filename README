@@ -1,3 +1,16 @@
+ABB IRB 140 Robot IRC controller Routine code
+*****************************MainModule**************************************
+Used for the following routine:
+Robot pick the dice and throw the dice on the conveyor in movement. 
+Dice is detected and analyzed by C++ application using IP camera, 
+that determines it's orientation and position. 
+All the data is sending to the PC via Ethernet. PC is providing this data 
+towards IRC5 controller that makes robot to pick up the dice of the conveyor 
+and place it on the table at real time. 
+The routine is complete when all dices are placed at each destination. 
+If there is repeated dice detected, the robot picks it up and throw it again. 
+*****************************************************************************
+
 OPENCV Libraries Implementation for computer vision:
 ****************************dice_recognition.cpp*****************************
 Needs previous configuration using VS2017 or previous version.
@@ -18,19 +31,8 @@ PC-SKD implementation for comunication between PC, and robot controller:
 Used for application window, controls and indicators design 
 *****************************************************************************
 
-ABB IRB 140 Robot IRC controller Routine code
-*****************************MainModule**************************************
-Used for the following routine:
-Robot pick the dice and throw the dice on the conveyor in movement. 
-Dice is detected and analyzed by C++ application using IP camera, 
-that determines it's orientation and position. 
-All the data is sending to the PC via Ethernet. PC is providing this data 
-towards IRC5 controller that makes robot to pick up the dice of the conveyor 
-and place it on the table at real time. 
-The routine is complete when all dices are placed at each destination. 
-If there is repeated dice detected, the robot picks it up and throw it again. 
-*****************************************************************************
 *NOTE*:
+OPENCV libraries are implemented for object recognition using IP camera
+and coded with C++.
 PC-SDK is implemented for comunication between C++ Aplication and Robot
-Controller that runs a MainModule RAPID code. 
-   
+Controller that runs a MainModule RAPID code.
