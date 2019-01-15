@@ -1,7 +1,7 @@
 ABB IRB 140 Robot IRC5 controller Routine code
 *****************************MainModule.mod***********************************
 Used for the following routine:
-Robot pick the dice and throw the dice on the conveyor in movement. 
+Robot pick the dice and throw it on the conveyor in movement. 
 Dice is detected and analyzed by C++ application using IP camera, 
 that determines it's orientation and position. 
 All the data is sending to the PC via Ethernet. PC is providing this data 
