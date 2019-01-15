@@ -32,7 +32,7 @@ Used for application window, controls and indicators design
 *****************************************************************************
 
 *NOTE*:
-OPENCV libraries are implemented for object recognition using IP camera
-and coded with C++.
+OPENCV libraries are implemented for object detecting and 
+recognition using IP camera and C++ Application.
 PC-SDK is implemented for comunication between C++ Aplication and Robot
-Controller that runs a MainModule RAPID code.
+Controller Routine that runs a MainModule RAPID code.
