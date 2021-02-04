@@ -6,7 +6,7 @@ Dice is detected and analyzed by C++ application using IP camera,
 that determines its orientation and position in Real-Time. 
 All the data is sent to the PC via Ethernet. PC is providing this 
 data towards IRC5 controller via Ethernet as well. 
-The robot pick up the dice from the conveyor and place it on the table.
+The robot picks up the dice from the conveyor and place it on the table.
 The routine is complete when all the dices are placed at each destination. 
 If there are any repeated dice detected, the robot picks them up and throws 
 them again one by one.
