@@ -17,13 +17,13 @@ The following module can be simulated  the robotstudio virtual env.
 OPENCV Libraries Implementation for computer vision:
 Needs previous configuration using VS2017 or previous version.
 You can find how to link your libraries at the official OpenCV site following 
-all steps. 
+the tutorial. 
 
 ****************************Form1.cs*****************************************
 GUI with PC-SKD implementation for comunication between PC, and robot 
 controller. It requires to have installed PC-SDK libraries on your PC that 
 are available on ABB official site.
-Once you have installed this toolkit you will have to link it with yours
+Once you have installed this toolkit you will have to link it with your
 VS2017 project. 
 
 *NOTE*:
