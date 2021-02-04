@@ -3,23 +3,22 @@ ABB IRB 140 Robot IRC5 controller Routine code
 Used for the following routine:
 Robot picks the dice and throws it on the conveyor in movement. 
 Dice is detected and analyzed by C++ application using IP camera, 
-that determines it's orientation and position. 
-All the data is sending to the PC via Ethernet in RT. PC is providing this data 
-towards IRC5 controller that makes robot to pick up the dice of the conveyor 
-and place it on the table in real time. 
-The routine is complete, when all the dices are placed at each destination. 
-If there is any repeated dice detected, the robot picks it up and throw it again.
+that determines its orientation and position. 
+All the data is sent to the PC via Ethernet in Real-time. PC is providing this 
+data towards IRC5 controller that makes the robot pick up the dice from the 
+conveyor and place it on the table.
+The routine is complete when all the dices are placed at each destination. 
+If there are any repeated dice detected, the robot picks them up and throws 
+them again one by one.
 *NOTE:
 The following module can be simulated at robotstudio virtual controller. 
 *****************************************************************************
-
 OPENCV Libraries Implementation for computer vision:
 ****************************dice_recognition.cpp*****************************
 Needs previous configuration using VS2017 or previous version.
-You can find how to link your libraries searching on the internet.
-Or at official OPENCV site following all steps. 
+You can find how to link your libraries by searching on the internet.
+Or at the official OpenCV site following all steps. 
 *****************************************************************************
-
 PC-SKD implementation for comunication between PC, and robot controller:
 ****************************Form1.cs*****************************************
 Also is required to have installed PC-SDK libraries on your PC that 
@@ -27,14 +26,12 @@ are available on ABB official site.
 Once you have installed this toolkit you will have to link it with yours
 VS2017 project. 
 *****************************************************************************
-
 PC-SKD implementation for comunication between PC, and robot controller:
 ****************************Form1.Designer.cs********************************
 Used for application window, controls and indicators design 
 *****************************************************************************
-
 *NOTE*:
-OPENCV libraries are implemented for object detection and 
+OpenCV libraries are implemented for object detection and 
 recognition using IP camera and C++ Application.
-PC-SDK is implemented for comunication between C++ Aplication and Robot
-Controller Routine that runs a MainModule RAPID code.
+PC-SDK is implemented for comunication between C++ Application and 
+Robot Controller Routine that runs a MainModule.
