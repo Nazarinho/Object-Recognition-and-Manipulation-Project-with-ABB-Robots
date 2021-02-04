@@ -21,14 +21,10 @@ Or at the official OpenCV site following all steps.
 *****************************************************************************
 PC-SKD implementation for comunication between PC, and robot controller:
 ****************************Form1.cs*****************************************
-Also it is required to have installed PC-SDK libraries on your PC that 
+Also it requires to have installed PC-SDK libraries on your PC that 
 are available on ABB official site.
 Once you have installed this toolkit you will have to link it with yours
 VS2017 project. 
-*****************************************************************************
-PC-SKD implementation for comunication between PC, and robot controller:
-****************************Form1.Designer.cs********************************
-Used for application window, controls and indicators design 
 *****************************************************************************
 *NOTE*:
 OpenCV libraries are implemented for object detection and 
